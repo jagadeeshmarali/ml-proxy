@@ -1,0 +1,7 @@
+transformers==4.20.1
+# tensorflow
+torch
+protobuf
+grpcio
+grpcio-tools
+protobuf==4.21
