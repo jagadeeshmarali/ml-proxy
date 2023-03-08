@@ -10,3 +10,6 @@ services:
       - "50051:50051"
     env_file:
       - .env
+networks:
+  default:
+    name: ml-proxy-network

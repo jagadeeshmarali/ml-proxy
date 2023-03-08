@@ -8,8 +8,11 @@
     "noImplicitAny": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "preserveSymlinks": true,
+    "allowJs": true,
+    "lib": ["ES6"]
   },
-  "include": ["src/**/*.ts"],
+  "include": ["src/proto/src/**/*.d.ts", "src/**/*.ts"],
   "exclude": ["node_modules"]
 }
